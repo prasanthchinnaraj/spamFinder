@@ -3,8 +3,8 @@ import joblib
 import re
 
 # Load model and vectorizer
-model = joblib.load("logistic_model.pkl")
-vectorizer = joblib.load("vectorizer.pkl")
+model = joblib.load("spam-detector/logistic_model.pkl")
+vectorizer = joblib.load("spam-detector/vectorizer.pkl")
 
 # Text Preprocessing
 def preprocess(text):
